@@ -2,9 +2,15 @@
 This is an ai generated project that helps turn an entire repo into a big gist that chatgpt can consume
 
 
-:The current dir of the project: # all combined, show me the project folder structure tree with all the files in it, for both the server and the extension client
+:The current dir of the project: # all combined, show me the project folder structure tree with all the files in it
 ```
-repo-gist/
+├── FollowThrough.md
+├── README.md
+├── Test
+│   ├── B
+│   │   └── t.text
+│   └── Yo.txt
+├── auto-repo-gist.gist.md
 ├── repoGist.py
 └── setup.py
 ```
