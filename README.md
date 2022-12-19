@@ -3,12 +3,24 @@ This is an ai generated project that helps turn an entire repo into a big gist t
 
 easy install with pip
 ```
-python3 -m pip install repo-gist
+python3 -m pip install repo-gist --upgrade
 ```
-usage:
+
+usage: first cd into your directory, then run 
 ```
 repo-gist .
 ```
+This will generate an {repo}.gist.md file in your repo containing all of itself
+
+*you can add files to .gitignore or .gistignore to exclude files or dir paths (TBD)
+
+to reupload to pip after edits
+# update setup.py version
+python setup.py sdist bdist_wheel
+twine upload dist/*
+git tag -a 0.1.1 -m "Release 0.1.1"
+git push origin --tags
+
 
 :The current dir of the project: # all combined, show me the project folder structure tree with all the files in it
 ```
