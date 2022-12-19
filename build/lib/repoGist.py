@@ -98,8 +98,8 @@ def write_gist(gist, repo_name):
 	"""Writes the Gist to a local Markdown file with the name [repo_name].gist.md."""
 	with open(f"{repo_name}.gist.md", "w") as f:
 		f.write(gist)
-	print(f"Created gist file: {repo_name}.gist.md")
-	print("Done! To view the gist, run:\n $ cat {repo_name}.gist.md")
+	print(f"\n ::: Created Gist From Repo - file: {repo_name}.gist.md")
+	print(f"Done! To view the gist you can run:\n$ cat {repo_name}.gist.md\n")
 
 def prepForChatGPT(gist, next_instruction="{it will help if you explain what you are doing, what is the repo for, and what you are trying to do next}"):
 	"""Prepares the Gist for the Chat GPT model by adding a header and footer."""

@@ -15,11 +15,13 @@ This will generate an {repo}.gist.md file in your repo containing all of itself
 *you can add files to .gitignore or .gistignore to exclude files or dir paths (TBD)
 
 to reupload to pip after edits
-# update setup.py version
+update setup.py version
+```
 python setup.py sdist bdist_wheel
 twine upload dist/*
-git tag -a 0.1.1 -m "Release 0.1.1"
+git tag -a 0.1.4 -m "Release 0.1.4"
 git push origin --tags
+```
 
 
 :The current dir of the project: # all combined, show me the project folder structure tree with all the files in it
