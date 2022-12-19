@@ -73,6 +73,9 @@ it's probably not starting like that , maybe its ./.git or full path with ./git/
 
 {gist}
 
+: testing various pre prompts to see which one is the best
+
+
 how do i upload this to pypi?
 echo '''[distutils]
 index-servers =

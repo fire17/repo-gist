@@ -1,6 +1,14 @@
 # auto-export-repo-to-chatgpt
 This is an ai generated project that helps turn an entire repo into a big gist that chatgpt can consume
 
+easy install with pip
+```
+python3 -m pip install repo-gist
+```
+usage:
+```
+repo-gist .
+```
 
 :The current dir of the project: # all combined, show me the project folder structure tree with all the files in it
 ```

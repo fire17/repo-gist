@@ -2,15 +2,15 @@ from setuptools import setup
 
 setup(
     name="repo-gist",
-    version="0.1.0",
+    version="0.1.1",
     py_modules=["repoGist"],
     install_requires=[],
-    author="Your Name",
-    author_email="your@email.com",
-    description="A script to create a gist from the contents of a repository",
+    author="Tami",
+    author_email="fire17@gmail.com",
+    description="Create a gist from the contents of a repository, easy share with ChatGPT",
     long_description="",
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/repo-gist",
+    url="https://github.com/fire17/auto-repo-gist",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "repogist = repoGist:main"
+            "repo-gist = repoGist:main"
         ]
     }
 )

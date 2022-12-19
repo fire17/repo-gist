@@ -1,1 +1,1 @@
-yo yo yo
+yo yo yo, this is secret message that should be found in the directory

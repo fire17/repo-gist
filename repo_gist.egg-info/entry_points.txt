@@ -1,0 +1,2 @@
+[console_scripts]
+repo-gist = repoGist:main
