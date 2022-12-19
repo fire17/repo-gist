@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: repo-gist
-Version: 0.1.1
+Version: 0.1.2
 Summary: Create a gist from the contents of a repository, easy share with ChatGPT
-Home-page: https://github.com/fire17/auto-repo-gist
+Home-page: https://github.com/fire17/repo-gist
 Author: Tami
 Author-email: fire17@gmail.com
 Classifier: Programming Language :: Python :: 3
